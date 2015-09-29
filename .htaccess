@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /wp_starter/
+RewriteBase /precon_doc/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wp_starter/index.php [L]
+RewriteRule . /precon_doc/index.php [L]
 </IfModule>
